@@ -5,7 +5,7 @@
 # Code pulled from the short programs I used to solve the Python Challenge problems
 
 # Ideally, the program should print the words "cat" and "dog"
-# SYNTAX ERROR COUNT: 5
+# SYNTAX ERROR COUNT: 4
 
 text = "a_r"
 # empty string variable that can be added to later
@@ -20,7 +20,7 @@ print(message)
 
 # another empty string variable that can be added to later
 message2 = ''
-fhand = open(Debugging1.txt)
+fhand = open('Debugging1.txt')
 for x in fhand:
     # convert each line of the text document to a string so that it can be iterated through
     line = str(x)
