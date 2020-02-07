@@ -20,7 +20,7 @@ print(message)
 
 # another empty string variable that can be added to later
 message2 = ''
-fhand = open('Debugging1.txt')
+fhand = open('Lawlor_Debugging1.txt')
 for x in fhand:
     # convert each line of the text document to a string so that it can be iterated through
     line = str(x)
